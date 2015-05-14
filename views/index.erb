@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<link href="css/style.css" rel='stylesheet' type='text/css'>
+		<title>SpeakSruly</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="main">
+					<div id="title">
+						<img src="images/Title.png">
+					</div>
+					<div id="form">
+						<div id="arrow"><img src="images/arrow.png"></div>
+						<div id="label"><i>INSERT STATUS HERE</i></div>
+						<form id="speaksruly" action="/" method="POST">
+							<textarea id="status" name="status" form="speaksruly"></textarea>
+							<button form="speaksruly">TRANSLATE STATUS</button>
+						</form>
+					</div>
+				</div>
+				<div id="billys">
+					<img src="images/shakespeare.png">
+				</div>
+				<div id="rav">
+					<img src="images/rav.png">
+				</div>
+			</header>
+			<div class="content">
+				<div id="translate">
+					<p name="translation">TRANSLATION:</p>
+					<% if news %>
+					<p name="newstatus"><%= news %></p>
+					<% end %>
+				</div>
+			</div>
+			<div id="about">
+				<h3>ABOUT SPEAKSRULY</h3>
+				<p><b>SRULY HELLER</b>'s dialect is a festive mix of modern day English, Shakespearean, Yiddish, Hebrew, and Latin. His statuses are riddled with references varying from Heavy Death Metal to Orthodox Judaism. He pulls words from parts of the Scrabble dictionary that have not been discovered yet and inserts them into his daily rhetoric. In other words, <b>we don't know what the fuck he is saying half of the time.</b> We created this site so we no longer have to scramble through Google and Dictionary.com just to understand why everyone is liking his status.</p>
+			</div>
+		</div>
+	</body>
+</html>

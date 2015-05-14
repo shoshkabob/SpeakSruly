@@ -1,0 +1,7 @@
+gem 'sinatra'
+gem 'unicorn'
+gem 'pry'
+gem 'httparty'
+gem 'sinatra-reloader'
+gem 'wordnik'
+gem 'json'
